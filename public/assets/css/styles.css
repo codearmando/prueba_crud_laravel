@@ -1,0 +1,136 @@
+body{
+    background-color: rgba(255, 255, 255, 0.891);
+}
+.titulo_dev{
+    text-align: center;
+    color: #004cff;
+    margin: 1rem 0;
+}
+.titulo_dev i{
+    color: #ccc;
+}
+header{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(100, 100, 245);
+}
+header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+header ul a{
+    padding: 0 5px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+header ul a:hover{
+    color: #00ff99;
+  
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  
+}
+.btn_detalles{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    background-color: rgb(87, 226, 72);
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    
+}
+.btn_detalles:hover{
+    background-color: rgb(101, 237, 108);
+    
+}
+.btn_modificar{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    background-color: rgb(72, 72, 226);
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    
+}
+.btn_modificar:hover{
+    background-color: rgb(101, 101, 237);
+    
+}
+.btn_borrar{
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    background-color: rgb(226, 72, 72);
+    border: none;
+    font-size: 15px;
+    
+}
+.btn_borrar:hover{
+    background-color: rgb(237, 101, 101);
+
+}
+
+.title_producto{
+    text-align: center;
+    color: #004cff;
+}
+input[type=text],
+input[type=number],
+input[type=datetime]  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+/* FORMUALRIO DE REGISTRO */
+.container_producto{
+    width: 80%;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    background-color: rgb(214, 214, 255);
+    border: none;
+    text-decoration: none;
+}
+/* FORMUALRIO DE detalles */
+/* FORMUALRIO DE modificacion */
