@@ -7,8 +7,8 @@ Pasos para ejecutar el crud en laravel:
 6. conexion a la bd: debe tener la contraseña del 1 al 7 "1234567"
 7. Crear un archivo ".env" en la raiz del proyecto , es decir dentro de la carpeta del proyecto y copiar todo el codigo del archivo ".env.example" al archivo ".env" creado
 8. la base de datos de datos debe tener como nombre "productos"
-9. luego ejecutar el comando "composer install"
+9. la carpeta del proyecto : C:\xampp\htdocs\prueba_crud_laravel y ejecutar el comando "composer install" en 
 10. luego ejecutar el comando "php artisan key:generate"
 11. ultimos pasos: ejecutar el comando "php artisan migrate" para migrar las tablas creadas que tiene el proyecto
-12. luego acceder a la carpeta del proyecto : C:\xampp\htdocs\Productos_crud y ejecutar el comando "php artisan serve"
+12. luego acceder a la carpeta del proyecto : C:\xampp\htdocs\prueba_crud_laravel y ejecutar el comando "php artisan serve"
 13. una vez ejecutado este ultimmo comando podra tener acceso al aplicativo e interactuar con el mismo
